@@ -9,6 +9,7 @@ body {
     line-height: 1.667
 }
 
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -159,7 +160,7 @@ a {
 
 .header_area .navbar .nav .nav-item .nav-link {
     text-transform: capitalize;
-    color: #222;
+    color: rgb(255, 255, 255);
     display: inline-block
 }
 
@@ -175,11 +176,14 @@ a {
 
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-    color: #384aeb
+    color: #fafafa;
+    text-decoration-line: underline;
+    
 }
 
 .header_area .navbar .nav .nav-item.submenu {
     position: relative
+
 }
 
 .header_area .navbar .nav .nav-item.submenu ul {
@@ -1281,7 +1285,7 @@ a {
 .button-header {
     padding: 10px 45px;
     background: transparent;
-    color: #222;
+    color: rgb(255, 255, 255);
     border-color: #EEEEEE
 }
 
@@ -1394,7 +1398,9 @@ a {
 .blog-banner-btn:hover {
     background: #384aeb;
     color: #fff
+
 }
+
 
 .banner-breadcrumb {
     display: inline-block
